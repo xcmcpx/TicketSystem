@@ -1,4 +1,5 @@
 const Company = require('../../models/company');
+const User = require('../../models/user');
 
 const { transformCompany } = require('./merge');
 
@@ -31,11 +32,11 @@ module.exports = {
             const result = await company.save();
             createdCompany = transformCompany(result);
 
-            const creator = await User.findById(req.userId);
-            if(!creator){
-                throw new Error('User not found.');
-            }
-            await creator.save();
+            // const creator = await User.findById(req.userId);
+            // if(!creator){
+            //     throw new Error('User not found.');
+            // }
+            // await creator.save();
 
             return createdCompany;
         }
