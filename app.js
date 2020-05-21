@@ -56,7 +56,8 @@ mongoose.connect(
 .then(() => {
     app.listen(PORT);
     console.log(PORT);
-    console.log("Connected and listening!");
+    console.log(' Your app is up and running on http://localhost:4000\ ' +
+    'You can use GraphiQL in development mode on http://localhost:4000/graphql');
 })
 .catch(err => {
     console.log(err);
