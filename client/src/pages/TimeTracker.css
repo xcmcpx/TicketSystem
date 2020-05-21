@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .timekeeping-ctr {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(34, 34, 34);
+    height: 100%;
+    color: rgb(250, 250, 250);
+    display: flex;
+    flex-direction: column;
+  }
+  .btn-ctr{
+    margin-left: auto;
+    margin-right: 3.75em;
+    padding-bottom: 1rem;
+  }
+  .timekeeping-form{
+    height: 100%;
+  }

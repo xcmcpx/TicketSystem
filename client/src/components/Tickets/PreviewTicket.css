@@ -1,0 +1,42 @@
+.preview_ticket_ctr{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    border: 1px solid #1D976C;
+    background: #1D976C;
+    display: flex;
+    color: white;
+}
+.preview_ticket_ctr ul:hover{
+    cursor: pointer;
+    background-color: #19b0d6;
+}
+.preview_ticket_headers{
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.preview_ticket_hdr{
+    display: inline-block;
+    width: 33%;
+    margin: 0.2rem;
+    padding: 0.2rem;
+    text-align: center;
+}
+.preview_ticket_ul{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.preview_ticket_col{
+    display: inline-block;
+    width: 33%;
+    padding: 0.3rem;
+    text-align: center;
+}

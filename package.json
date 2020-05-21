@@ -1,0 +1,31 @@
+{
+  "name": "ticket-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "startDev": "nodemon app.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "author": "Chris Patrick",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "array-move": "^2.1.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dataloader": "^1.4.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.0",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.11",
+    "react-beautiful-dnd": "^11.0.4",
+    "react-dom": "^16.8.6",
+    "react-toastify": "^5.4.0"
+  }
+}

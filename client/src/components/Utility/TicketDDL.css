@@ -1,0 +1,13 @@
+.ddl-ctr{
+    width: 86.5%;
+    margin: auto;
+}
+.ddl-hdr{
+    padding: 0.5rem;
+    font-size: 40px;
+    font-weight: bold;
+}
+.ddl{
+    background-color: #1D976C;
+    color: white;
+}

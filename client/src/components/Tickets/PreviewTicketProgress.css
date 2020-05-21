@@ -1,0 +1,18 @@
+.preview-progress_ctr{
+    background: #1D976C;
+    border: 1px solid #1D976C;
+    border-radius: 3px;
+    margin: 0.1em;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    height: auto;
+    padding: 0.5em;
+    color: white;
+}
+
+.preview-progress_title{
+    font-weight: bold;
+    margin-bottom: 1rem;
+}

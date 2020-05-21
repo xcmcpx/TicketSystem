@@ -1,0 +1,87 @@
+ 
+  .Timers {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    width: 90%;
+    margin: auto;
+  }
+  @media (max-width: 900px) {
+    .Timers {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  @media (max-width: 900px) {
+    .stopwatch {
+      margin-bottom: 40px;
+    }
+  }
+  /* .countdown, */
+  .stopwatch {
+    border: 2px solid grey;
+    border-radius: 4px;
+    padding-top: 1rem;
+    width: 96.5%;
+    background-color: rgb(22, 27, 31);
+    box-shadow: 0 3px 6px rgb(12, 12, 12);
+  }
+  .countdown {
+    padding-top: 10px;
+    margin-left: 3.5rem;
+  }
+  
+  .countdown-hdr,
+  .stopwatch-hdr {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  button {
+    background-color: #202b33;
+    border: solid 1px transparent;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #106ba3;
+  }
+  .stopwatch button {
+    padding: 12px 32px;
+    font-size: 20px;
+  }
+  .stopwatch-display {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    font-size: 48px;
+  }
+  .countdown-display {
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  .countdown-display button {
+    margin: 0 15px;
+    border: solid 1px transparent;
+    border-radius: 2px;
+    padding: 4px 16px;
+    color: #ffffff;
+  
+    font-size: 16px;
+  }
+  .countdown-display button:hover {
+    background-color: #106ba3;
+  }
+  .countdown-lbl {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .countdown-time {
+    font-size: 36px;
+    margin: 5px 0;
+  }

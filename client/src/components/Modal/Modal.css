@@ -1,0 +1,66 @@
+.modal {
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    top: 10vh;
+    position: fixed;
+    left: 5%;
+    z-index: 100;
+  }
+  
+  .modal__header {
+    padding: 1rem;
+    background: #4CAF50;
+    color: white;
+  }
+  
+
+  .modal__header h1 {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+  
+  .modal__content {
+    padding: 1rem;
+  }
+  
+  .modal__actions {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+  }
+  .submitBtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  .submitBtn:hover {
+    background-color: #45a049;
+  }
+  .cancelBtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  .cancelBtn:hover {
+    background-color: #45a049;
+  }
+  
+    @media screen and (max-width: 600px) {
+      .col-25, .col-75, .cancelBtn, .submitBtn {
+        width: 100%;
+        margin-top: 0;
+      }
+    }

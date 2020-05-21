@@ -1,0 +1,37 @@
+.progress-board_ctr{
+    display: flex;
+    align-content: center;
+    box-sizing:border-box;
+    border: 2px solid black;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    max-height: 100%;
+}
+.status-column_ctr{
+    border: 0.5px solid black;
+    width: 20%;
+}
+.status-column_hdr{
+    display: flex;
+    justify-content: center;
+    height: 2em;
+    border-bottom: 0.5px solid black;
+}
+.draggable{
+    height: 100%;
+    width: 100%;
+}
+.project-nav{
+    margin: 0.5em 0 0.5em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    margin: 0 0.1em;
+    padding: 0;
+    list-style: none;
+}
